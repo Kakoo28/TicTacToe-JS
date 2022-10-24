@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"
+              content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>TicTacToe JS</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="grid" style="display: grid">
+            <div id="c1" class="case"></div>
+            <div id="c2" class="case"></div>
+            <div id="c3" class="case"></div>
+            <div id="c4" class="case"></div>
+            <div id="c5" class="case"></div>
+            <div id="c6" class="case"></div>
+            <div id="c7" class="case"></div>
+            <div id="c8" class="case"></div>
+            <div id="c9" class="case"></div>
+        </div>
+        <h3>Au tour du Joueur : <span id="currentPlayer">X</span></h3>
+        <ul id="scores">
+            <li>Score Joueur X : <span id="scoreX">0</span></li>
+            <li>Score Joueur O : <span id="scoreO">0</span></li>
+            <li>Match Nuls : <span id="scoreNul">0</span></li>
+        </ul>
+        <button id="resetButton">Reset Score</button>
+        <script src="script.js"></script>
+    </body>
+</html>
