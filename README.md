@@ -6,7 +6,7 @@ Le jeu TicTacToe en :
 - HTML
 - CSS
 
-## [Play](https://KakooES.github.io/TicTacToe-JS/)
+## [Play](https://Kakoo28.github.io/TicTacToe-JS/)
 
 ___
 
